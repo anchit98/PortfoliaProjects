@@ -2,7 +2,7 @@
 select *
 from PortfolioProject..CovidDeaths
 where continent is not null
-order by 3,4;
+order by 3,4
 
 --Data Filtering
 select location, date, total_cases, new_cases, total_deaths, population
